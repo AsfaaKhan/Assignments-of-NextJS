@@ -14,6 +14,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-color: rgb(208, 218, 189);
 }
 
 a {
@@ -39,4 +41,21 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.navbar{
+  text-align: center;
+  padding: 2rem;
+  list-style-type:none;
+  text-decoration: none;
+}
+.nav-item{
+  display: inline-block;
+  padding: 2rem;
+}
+.nav-item:hover{
+  color: rgb(249, 74, 30);
+  font-weight: 400;
+  border-radius: 10rem;
+  
 }
