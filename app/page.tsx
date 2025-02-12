@@ -10,10 +10,7 @@ export default function HomePage(){
                 <li className="nav-item"><Link href="/contactPage">Contact</Link></li>
                 <li className="nav-item"><Link href="/servicesPage">Services</Link></li>
                 <li className="nav-item"><Link href="/resumePage">Resume</Link></li>
-                
-                
-            </ul>
-            
+            </ul>    
         </div>
     )
 }
